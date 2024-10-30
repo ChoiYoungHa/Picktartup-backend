@@ -1,0 +1,3 @@
+[submodule "userservice"]
+	path = userservice
+	url = ./userservice
