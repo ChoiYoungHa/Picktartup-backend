@@ -7,6 +7,6 @@
 [submodule "walletservice"]
 	path = walletservice
 	url = https://github.com/Picktartup/Pickstartup-wallet.git
-[submodule "coin"]
-	path = coin
+[submodule "coinservice"]
+	path = coinservice
 	url = https://github.com/Picktartup/Picktartup-coinservice.git
