@@ -10,3 +10,6 @@
 [submodule "coinservice"]
 	path = coinservice
 	url = https://github.com/Picktartup/Picktartup-coinservice.git
+[submodule "contractservice"]
+	path = contractservice
+	url = https://github.com/Picktartup/Picktartup-contractservice.git
