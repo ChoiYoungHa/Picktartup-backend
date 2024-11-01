@@ -2,7 +2,7 @@
 	path = userservice
 	url = https://github.com/Picktartup/PicktartUp-userservice.git
 [submodule "startup"]
-	path = startup
+	path = startupservice
 	url = https://github.com/Picktartup/picktartup-startupservice.git
 [submodule "walletservice"]
 	path = walletservice
