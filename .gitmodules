@@ -1,9 +1,9 @@
 [submodule "userservice"]
 	path = userservice
 	url = https://github.com/Picktartup/PicktartUp-userservice.git
-[submodule "wallet"]
-	path = wallet
-	url = https://github.com/Picktartup/Pickstartup-wallet.git
 [submodule "startup"]
 	path = startup
 	url = https://github.com/Picktartup/picktartup-startupservice.git
+[submodule "walletservice"]
+	path = walletservice
+	url = https://github.com/Picktartup/Pickstartup-wallet.git
