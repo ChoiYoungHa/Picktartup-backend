@@ -4,3 +4,6 @@
 [submodule "wallet"]
 	path = wallet
 	url = https://github.com/Picktartup/Pickstartup-wallet.git
+[submodule "startup"]
+	path = startup
+	url = https://github.com/Picktartup/picktartup-startupservice.git
