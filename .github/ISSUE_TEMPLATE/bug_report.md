@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: 버그/트러블슈팅 관련 이슈 생성 시 사용해주세요 :)
-title: "[BUG] 이슈 이름"
+title: "[Infra/BUG] 이슈 이름 or [Blockchain/BUG] 이슈 이름 or [BE/BUG] 이슈 이름"
 labels: bug
 assignees: ''
 
