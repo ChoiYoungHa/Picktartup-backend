@@ -13,3 +13,6 @@
 [submodule "contractservice"]
 	path = contractservice
 	url = https://github.com/Picktartup/Picktartup-contractservice.git
+[submodule "adminservice"]
+	path = adminservice
+	url = https://github.com/Picktartup/Picktartup-adminservice.git
