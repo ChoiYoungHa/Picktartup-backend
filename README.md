@@ -208,7 +208,7 @@ PicktartUp에 접속하면 만날 수 있는 랜딩 페이지
 ### 1.1 ALB Ingress → Private Subnet에 있는 React App 접근
 - **구현 방식**  
   - **ALB(Ingress Controller)** 를 사용해, 외부로부터의 HTTP/HTTPS 트래픽을 받아 **Private Subnet** 내의 Frontend React App Pod로 라우팅  
-  - ALB는 Public Subnet(Internet-facing) 쪽에 위치하고, 실제 애플리케이션(React App)은 Private Subnet 내에서 동작
+  - ALB는 Public Subnet 쪽에 위치하고, 실제 애플리케이션(React App)은 Private Subnet 내에서 동작
 - **장점**  
   - **보안상 이점**: 프론트엔드 애플리케이션 자체가 Public IP로 직접 노출되지 않아 공격 표면이 줄어듬
   - **고가용성**: AWS ALB 자체가 Multi-AZ를 지원하며, 내부의 React App은 Kubernetes의 HPA, Cluster Autoscaler 등으로 스케일링 가능  
